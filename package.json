@@ -1,12 +1,30 @@
 {
   "name": "e-vue-contextmenu",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+  "description": "基于 vue 的鼠标右键菜单组件",
+  "main": "lib/e-vue-contextmenu.common.js",
+  "keywords": [
+    "vue",
+    "contextmenu",
+    "shengchangwei"
+  ],
+  "homepage": "https://github.com/ShengChangWei/e-vue-contextmenu#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShengChangWei/e-vue-contextmenu.git"
   },
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name e-vue-contextmenu --dest lib packages/index.js"
+  },
+  "author": {
+    "name": "圣长伟",
+    "email": "2367896538@qq.com",
+    "bolg": "shengchangwei.github.io"
+  },
+  "license": "MIT",
   "dependencies": {
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",

@@ -1,0 +1,12 @@
+# 忽略目录
+src/
+packages/
+public/
+.idea/
+node_modules/
+CHANGELOG.md
+ 
+# 忽略指定文件
+vue.config.js
+babel.config.js
+*.map
