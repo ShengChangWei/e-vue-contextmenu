@@ -14,10 +14,10 @@
 	```
 2. main.js
 
-    ```shell
+    ```javascript
     import EVueContextmenu from 'e-vue-contextmenu'
     Vue.use(EVueContextmenu)
-    ``
+    ```
 3. template
 
 ```html
